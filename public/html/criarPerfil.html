@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="../style/criarConta.css">
+    <title>Criar Perfil</title>
+</head>
+<body>
+    <div class="container">
+        <div class="logar">
+            <div class="texto">
+                <p>Bem-vindo!</p>
+                <p>Sentimos sua falta!</p>
+                <p style="margin-bottom: 0;">Acesse sua conta</p>
+            </div>
+            <button onclick="redirectLogin()" class="buttonLogin">Entrar</button>
+        </div>
+        <div class="criar">
+            <h1 class="h1">Crie sua Conta</h1>
+            <input class="inputs" placeholder="nome" maxlength="15" autofocus id="nome" type="text">
+            <input class="inputs" placeholder="dd/mm/aaaa" maxlength="24" id="nascimento" type="date">
+            <input class="inputs" placeholder="email" id="email" type="text">
+            <input class="inputs" placeholder="senha" id="senha1" type="password">
+            <input class="inputs" placeholder="repita sua senha" id="senha2" type="password">
+            <button id="buttonAdd" onclick="addPerfil()">Cadastrar</button>
+        </div>
+    </div>
+    <script src="../js/index.js"></script>
+</body>
+</html>

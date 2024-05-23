@@ -1,0 +1,94 @@
+/* h1 de criaçao de conta */
+.h1{
+    left: 0;
+    position: relative;
+    color: #9246F2;
+}
+.container{
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    width: 80vw;
+    height: 80vh;
+    border-radius: 10px;
+    box-shadow: 4px 4px 10px black;
+    border: 1px solid black;
+    background-color: #FFFFFF;
+}
+.texto{
+    margin-bottom: 40%;
+    color: #FFFFFF;
+}
+.logar{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border-top-left-radius: 7px;
+    border-bottom-left-radius: 7px;
+    position: absolute;
+    width: 30%;
+    height: 100%;
+    background-color: #9246F2;
+}
+.inputs{
+    color: #878787;
+    border-style: none;
+    padding-left: 10px;
+    border-radius: 5px;
+    width: 73%;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    background-color: #EFEFEF;
+    height: 30px;
+}
+.buttonLogin{
+    margin-top: 20px;
+    width: 50%;
+    height: 25px;
+    border-radius: 20px;
+    border: 2px white solid;
+    background-color: #9246F2;
+    color: #FFFFFF;
+}
+.buttonLogin:hover{
+    cursor: pointer;
+    background-color: violet;
+    transition: 1s;
+}
+.buttonLogin:not(:hover){
+    transition: 1s;
+}
+#buttonAdd{
+    border: none;
+    color: white;
+    margin-top: 10px;
+    height: 40px;
+    border-radius: 25px;
+    width: 30%;
+    background-color: #9246F2;
+}
+#buttonAdd:hover{
+    cursor: pointer;
+    background-color: violet;
+    transition: 1s;
+}
+#buttonAdd:not(:hover){
+    transition: 1s;
+}
+.inputs::placeholder{
+    color: #878787;
+}
+.criar{
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border-radius: 10px;
+    right: 0;
+    width: 70%;
+    height: 100%;
+    background-color: white;
+}
